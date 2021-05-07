@@ -17,7 +17,7 @@ function LunchController($scope) {
       $scope.LunchMessage="Please enter data first";
     }   
     else if(items.length >=1 && items.length<=3){
-      $scope.LunchMessage="Enjoy";
+      $scope.LunchMessage="Enjoy!";
     }
     else {
       $scope.LunchMessage="Too much!";
